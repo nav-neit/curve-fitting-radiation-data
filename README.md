@@ -26,15 +26,11 @@
 	   	* Activation function:sigmoid,optimizer used:RMSprop ,loss function:mean-absolute-error // combination of these were found to be optimum after testing with several other activation functions,optimisers,loss funs etc.
 	    * Error of about 54% // Intutive reason: May be due to underfitting since the dataset is not very large.
 	
-	2) Curve fitting using multivariate polynomial regression
-	   -> The final scatter plot shows that ther is a moderate overlap between predicted and origianl counts.
+	2. Curve fitting using multivariate polynomial regression
+	   * The final scatter plot shows that ther is a moderate overlap between predicted and origianl counts.
 	
-	3) Support vector Regression using Gaussian Radial Basis Function
-	  -> Has a much better overlap between predicted and original counts than the MPR model.
+	3. Support vector Regression using Gaussian Radial Basis Function
+	  * Has a much better overlap between predicted and original counts than the MPR model. R_squared value > 90%.
 
-Final Conclusion:
-	Through data analysis we are able to conclude that the relationship btw the variables and COUNTS is in accordance
-	with the model given in the paper , it obeys correlations.
-	Also median is a suitable tool to work with.
-	From the above 3 ML models SVR model has almost similar predictions compared to the other two models even though 
-	the model is not a viable representation of process.
+#### Final Conclusion:
+###### Through data analysis we are able to conclude that the relationship btw the variables and COUNTS is in accordance with the model given in the paper , it obeys correlations. Also median is a suitable tool to work with.From the above 3 ML models SVR model has almost similar predictions compared to the other two models even though the model is not a viable representation of process.
