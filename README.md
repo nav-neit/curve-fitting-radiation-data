@@ -32,6 +32,6 @@
 	3. Support vector Regression using Gaussian Radial Basis Function
 	  * Has a much better overlap between predicted and original counts than the MPR model. R_squared value > 90%.
 
-<h3><u color="white">Final Conclusion</u></h3>
+<h3>Final Conclusion</h3>
 
 #### Through data analysis we are able to conclude that the relationship btw the variables and COUNTS is in accordance with the model given in the paper , it obeys correlations. Also median is a suitable tool to work with.From the above 3 ML models SVR model has almost similar predictions compared to the other two models even though the model is not a viable representation of process.
