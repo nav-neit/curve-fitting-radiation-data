@@ -1,14 +1,13 @@
 # PHN-319 Technical Communication course -  Report
 
-## Sensitivity Analysis of Calibration Methods and Factors Effecting the Statistical Nature of Radiation Measurement
+## Data Analysis and curve fitting on scintillation detector data
 
-1) Datasets:
-	Processed 2058 files given for each detector: 
-	-> Each text file contributed a single datapoint of format (Time,HV,LLD,AMP,COUNTS) , for 'COUNTS' mean of 
-	  counts from each text file was taken.
-	-> Thus for each detector a single csv file of 2058 data points was made.
+* Datasets used:
+	- Processed 2058 files given for each detector: 
+	- Each text file contributed a single datapoint of format (Time,HV, LLD,AMP,COUNTS) , for 'COUNTS' mean of counts from each text file was taken.
+	- for each detector a single csv file of 2058 data points was made.
 
-2) Data Analysis:
+2) Data Analysis performed:
 	-> Plotted Histograms of each variables to find the range in which each variable lies.
 	-> From the histograms it is clear that the data need to be scaled (using standard scaling technique) before fitting.
 	-> KDE plot of COUNTS show that it has a right skewed distribution, so median is a suitable for analysis.
