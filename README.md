@@ -35,3 +35,5 @@
 <h3>Final Conclusion</h3>
 
 #### Through data analysis we are able to conclude that the relationship between the variables and COUNTS is in accordance with the model given in the reference paper mentioned in the report , it obeys correlations. Also median is a suitable tool to work with.From the above 3 ML models SVR model has almost similar predictions compared to the other two models.
+
+<h4>Link to the article : <a href= "https://arxiv.org/abs/2112.10501"> AI based Scintillation Detector Calibration </a> </h4>
